@@ -49,8 +49,9 @@ function detectFinalToken(obj){
 }
 
 async function start(){
+    if(process.argv[5]==undefined) process.argv[5] = 2
     console.log('\n<---- Tracking Transaction ---->\n')
-    detectTokenTransaction(process.argv[4]);
+    detectTokenTransaction(process.argv[4])
     await new Promise(resolve => setTimeout(resolve, parseInt(process.argv[5])*1000))
     detectFinalToken(totalTx)
 }

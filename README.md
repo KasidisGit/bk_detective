@@ -9,7 +9,7 @@ This Detect.js file is for tracking a blockchain transaction
 ### You can start tracking by:
 
 ```
-node Detect.js <API-KEY> <CONTRACT-ADDRESS> <TRACKING-ADDRESS> <SET-TIMEOUT (s)>
+node Detect.js <API-KEY> <CONTRACT-ADDRESS> <TRACKING-ADDRESS> <SET-TIMEOUT (default 2 sec)>
 ```
 
 Sample Output(s):
